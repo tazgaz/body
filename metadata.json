@@ -1,0 +1,6 @@
+{
+  "name": "מסע בגוף האדם - דין, יובל, אורי.י - ד5",
+  "description": "אפליקציה אינטראקטיבית לילדים לחקירה ולמידה על מערכות גוף האדם, כולל מודל תלת-ממדי וחידונים.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
