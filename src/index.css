@@ -12,9 +12,10 @@
   --color-on-surface: #dde3e7;
   --color-on-surface-variant: #bbc9cf;
   
-  --color-primary: #a4e6ff;
-  --color-primary-container: #00d1ff;
-  --color-on-primary-container: #00566a;
+  --color-primary: #38bdf8;
+  --color-on-primary: #032030;
+  --color-primary-container: #0284c7;
+  --color-on-primary-container: #ffffff;
   
   --color-secondary: #ffb3ae;
   --color-secondary-container: #a90219;
@@ -38,7 +39,7 @@
 }
 
 .glow-primary {
-  @apply shadow-[0_0_20px_rgba(164,230,255,0.15)] border-primary/30;
+  @apply shadow-[0_0_20px_rgba(56,189,248,0.12)] border-primary/25;
 }
 
 .glow-secondary {

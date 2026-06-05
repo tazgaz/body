@@ -26,14 +26,14 @@ export default function ModelExplorer({ onSelectSystem }: ModelExplorerProps) {
           <img
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnoKxtwKcQJQesTzP63BecdzFksioEbsBImxW1wDNRKmmi2_cgEUPe9LDcogftxr8JyBRyw295r8TW9BDovNUAhCKZy51TDqu0vVWNnZfhl8QLj6A-N3TjYnTNuhU-gRXrKRGvNZkNDeWDNoBdDLq53Xse1OwcglmRrNLZO0dw2B7zTgLJkTujqtgIsgC1xUHpgxBISwwWnYAghrxPNE0x2kqShuQh77rySMf6l6_CfJGnkG-YimXWRbofKElFNu0-OHoj0u40Nvk"
             alt="Human Body Model"
-            className="w-full h-full object-contain mix-blend-screen opacity-90 drop-shadow-[0_0_40px_rgba(164,230,255,0.2)]"
+            className="w-full h-full object-contain mix-blend-screen opacity-90 drop-shadow-[0_0_40px_rgba(56,189,248,0.15)]"
           />
           
           {/* Scanline Effect */}
           <motion.div 
             animate={{ top: ['0%', '100%', '0%'] }}
             transition={{ duration: 10, repeat: Infinity, ease: 'linear' }}
-            className="absolute left-0 right-0 h-[2px] bg-primary/30 z-10 blur-[1px] shadow-[0_0_15px_rgba(164,230,255,0.5)]"
+            className="absolute left-0 right-0 h-[2px] bg-primary/30 z-10 blur-[1px] shadow-[0_0_15px_rgba(56,189,248,0.3)]"
           />
         </motion.div>
       </div>
